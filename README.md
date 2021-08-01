@@ -1,18 +1,16 @@
 # School District Analysis
 
 ## Project Overview
-The purpose of this project is to rerun a district analysis after the discovery of an issue with 
+The purpose of this project was to rerun a school district analysis that was previously done to look at trends in school performance.  This analysis is being rerun due to the discovery of information in the student data file that showed evidence of academic dishonesty, specifically regarding the reading and math scores for ninth-graders at Thomas High School.  
 
-Upon completion of the analysis, it was found that the file of student information showed evidence of academic dishonesty, specifically the reading and math scores for ninth-graders at Thomas High School.  
+While this is being investigated, ninth-grade reading and math test scores for Thomas High School needed to be excluded from this analysis. 
 
-Ninth-grade reading and math test scores for Thomas High School were to be removed from the file and the original school district analysis was repeated without those scores. The following metrics were recreated: 
+The first task was to replace all reading and math test scores for students in ninth-grade at Thomas High School with null values while keeping the rest of the data intact.  Then the analysis was rerun and the following metrics recreated: 
 
 1.  Summary of key metrics for the District
 1.  Summary of key metrics by individual school
-1.  Top 5 schools based on overall passing rate in math and reading.
-1.  Bottom 5 schools based on overall passing rate in math and reading.
-1.  Average student math scores by grade level
-1.  Average student reading scores by grade level
+1.  Top and bottom 5 schools based on overall passing rate
+1.  Average student math and reading scores by grade level
 1.  School performance based on spending per student
 1.  School performance based on school size
 1.  School performance based on type of school
@@ -25,22 +23,66 @@ The following resources were used to complete this analysis:
     - students_complete.csv, containing student information
 - Software:  Jupyter Notebook, Visual Studio Code, 1.58.2
 
+
 ## Analysis Results
-Following is a summary of the results produced by the recreated district analysis.
+Overall, removing the ninth-grade Thomas High School reading and math scores did not affect the original analysis as significantly as might have been expected.  Below are the new results of each each report/metric.  Any changes from the original analysis is noted.
 
-- District Summary:
+- District Summary:  
+    This report shows the key metrics for the school district as a whole.  Removing the ninth-grade reading and math scores for Thomas High School did not have a significant impact on the overall district-wide data.  There was just a slight decrease in passing percentages (-0.2% for passing math, -0.1% for passing reading, and -0.3% for overall passing).  
 
-    !["District_Summary_Updated](Resources/"District_Summary_Updated.png")
+    ![District_Summary_updated](Resources/District_Summary_updated.png)
+    
+    
+- Summary by School: 
+    This report shows the key metrics for each individual school within the district.  At a school level, the overall performance for Thomas High School improved slightly by removing the ninth-grade scores.  Since we adjusted our student count to only include 10th through 12th grade students, this likely helped with keeping the passing percentages very close to what they were originally.
 
+    ![School_Summary_updated](Resources/School_Summary_updated.png)
 
-
-- Summary by School:
+    
 - Summary of Top and Bottom Performing Schools:
+    These reports show both the top five and bottom five performing schools, based on overall passing percentage.  Thomas High School maintained its spot as the second best performing school, with only a slightly higher overall percentage due to removing the ninth-grade scores.
+ 
+    ![Top_5_Schools_updated](Resources/Top_5_Schools_updated.png)
+    ![Bottom_5_Schools_updated](Resources/Bottom_5_Schools_updated.png)
+
+    
 - Math and Reading Scores by Grade:
+    These reports show the breakdown of the average math and reading scores by school by grade-level.  Because they were removed, the ninth-grade scores for Thomas High School are displayed as "nan".  Otherwise, all other scores were unaffected.
+
+    Math:     
+    ![Math_Scores_by_Grade_updated](Resources/Math_Scores_by_Grade_updated.png)
+    
+    Reading:
+    
+    ![Reading_Scores_by_Grade_updated](Resources/Reading_Scores_by_Grade_updated.png)
+    
+
+    
 - School performance based on School Spending:
+
+    This report shows school performance by per-student spending ranges.  This report was not affected by the removal of the ninth-grade Thomas High School test scores.
+
+    ![Scores_by_School_Spending_updated](Resources/Scores_by_School_Spending_updated.png)
+
+    
 - School Performance Based on School Size:
+
+    This report looks at school performance in relation to school size.  This report was not affected by the removal of the ninth-grade Thomas High School test scores.
+
+    ![Scores_by_School_Size_updated](Resources/Scores_by_School_Size_updated.png)
+
 - School Performance Based on School Type:
+
+    This report looks at school performance based on type of school.  This report was also not affected by the removal of the ninth-grade Thomas High School test scores.
+
+    ![Scores_by_School_Type_updated](Resources/Scores_by_School_Type_updated.png)
+
 
 
  ## Summary
+ In summary, the resulting changes caused by having to replace the ninth-grade test scores for Thomas High School were fairly insignificant.  
+ - There was a slight decrease in the passing percentages in the district summary. 
+ - There was a slight increase in performance percentages for Thomas High School in the school summary.  
+ - Thomas High School's ranking within the the top performing schools remained the same, but with slightly improved performance percentages.  
+ - The summaries by grade-level by school remained the same except that there were no scores included for ninth-grade for Thomas High School. 
  
