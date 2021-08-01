@@ -31,7 +31,7 @@ Overall, removing the ninth-grade Thomas High School reading and math scores did
     This report shows the key metrics for the school district as a whole.  Removing the ninth-grade reading and math scores for Thomas High School did not have a significant impact on the overall district-wide data.  There was just a slight decrease in passing percentages (-0.2% for passing math, -0.1% for passing reading, and -0.3% for overall passing).  
 
     ![District_Summary_updated](Resources/District_Summary_updated.png)
-    
+       
     
 - Summary by School: 
     This report shows the key metrics for each individual school within the district.  At a school level, the overall performance for Thomas High School improved slightly by removing the ninth-grade scores.  Since we adjusted our student count to only include 10th through 12th grade students, this likely helped with keeping the passing percentages very close to what they were originally.
