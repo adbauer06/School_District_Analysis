@@ -36,25 +36,25 @@ Overall, removing the ninth-grade Thomas High School reading and math scores did
 - Summary by School: 
     This report shows the key metrics for each individual school within the district.  At a school level, the overall performance for Thomas High School improved slightly by removing the ninth-grade scores.  Since we adjusted our student count to only include 10th through 12th grade students, this likely helped with keeping the passing percentages very close to what they were originally.
 
-    ![School_Summary_updated](Resources/School_Summary_updated.png)
+    ![School_Summary_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/School_Summary_updated.PNG)
 
     
 - Summary of Top and Bottom Performing Schools:
     These reports show both the top five and bottom five performing schools, based on overall passing percentage.  Thomas High School maintained its spot as the second best performing school, with only a slightly higher overall percentage due to removing the ninth-grade scores.
  
-    ![Top_5_Schools_updated](Resources/Top_5_Schools_updated.png)
-    ![Bottom_5_Schools_updated](Resources/Bottom_5_Schools_updated.png)
+    ![Top_5_Schools_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Top_5_Schools_updated.PNG)
+    ![Bottom_5_Schools_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Bottom_5_Schools_updated.PNG)
 
     
 - Math and Reading Scores by Grade:
     These reports show the breakdown of the average math and reading scores by school by grade-level.  Because they were removed, the ninth-grade scores for Thomas High School are displayed as "nan".  Otherwise, all other scores were unaffected.
 
     Math:     
-    ![Math_Scores_by_Grade_updated](Resources/Math_Scores_by_Grade_updated.png)
+    ![Math_Scores_by_Grade_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Math_Scores_by_Grade_updated.PNG)
     
     Reading:
     
-    ![Reading_Scores_by_Grade_updated](Resources/Reading_Scores_by_Grade_updated.png)
+    ![Reading_Scores_by_Grade_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Reading_Scores_by_Grade_updated.PNG)
     
 
     
@@ -62,20 +62,20 @@ Overall, removing the ninth-grade Thomas High School reading and math scores did
 
     This report shows school performance by per-student spending ranges.  This report was not affected by the removal of the ninth-grade Thomas High School test scores.
 
-    ![Scores_by_School_Spending_updated](Resources/Scores_by_School_Spending_updated.png)
+    ![Scores_by_School_Spending_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Scores_by_School_Spending_updated.PNG)
 
     
 - School Performance Based on School Size:
 
     This report looks at school performance in relation to school size.  This report was not affected by the removal of the ninth-grade Thomas High School test scores.
 
-    ![Scores_by_School_Size_updated](Resources/Scores_by_School_Size_updated.png)
+    ![Scores_by_School_Size_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Scores_by_School_Size_updated.PNG)
 
 - School Performance Based on School Type:
 
     This report looks at school performance based on type of school.  This report was also not affected by the removal of the ninth-grade Thomas High School test scores.
 
-    ![Scores_by_School_Type_updated](Resources/Scores_by_School_Type_updated.png)
+    ![Scores_by_School_Type_updated](https://github.com/adbauer06/School_District_Analysis/blob/main/Resources/Scores_by_School_Type_updated.PNG)
 
 
 
